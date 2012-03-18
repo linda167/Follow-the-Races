@@ -1,0 +1,250 @@
+body 
+{
+  overflow-y: scroll;
+  background: #001839 url('../../resources/images/mainBackground.png') repeat-x scroll;
+  font-family: Trebuchet MS, Helvetica, Arial;
+  font-size: 13px;
+  margin: 0;
+}
+
+p
+{
+  text-align: justify;
+}
+
+.container0
+{
+  width: 1265px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container1
+{
+  width: 1053px;     
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+.mainContentRight
+{
+  background: url('../../resources/images/border-shadow-right.png') repeat-y;
+  background-position: right;  
+}
+
+.mainContentRight2
+{
+  background: url('../../resources/images/flag-right.png') no-repeat;
+  background-position: right top;   
+  padding-right: 95px; 
+}
+
+.mainContentLeft
+{
+  background: url('../../resources/images/border-shadow-left.png') repeat-y;    
+}
+
+.mainContentLeft2
+{
+  background: url('../../resources/images/flag-left.png') no-repeat;  
+  padding-left: 117px;  
+}
+
+.logo
+{
+  width: 1053px;
+  height: 121px;
+  background: url('../../resources/images/logo.png') no-repeat;  
+}
+
+.headerLinksSection
+{
+  float: right;
+  margin-top: -20px;
+  margin-right: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.headerLinksSection a:link 
+{
+  text-decoration: none;
+  color: #d3d3d3;
+}
+.headerLinksSection a:visited
+{
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.headerLinksSection a:hover
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.headerLinksSection a:active
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.topShadow
+{
+  width: 100%;
+  background: url('../../resources/images/underLogoShadow.png') repeat-x;
+}
+
+.mainContentSeparator
+{
+  display: inline-block;
+  padding-right: 13px;  
+  background: url('../../resources/images/lineGradientMiddle2.png') repeat-y;
+  background-position: right top;  
+  float: left; 
+  position: relative;
+}
+
+.lineGradientTop
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 13px;
+  height: 59px;
+  background: url('../../resources/images/lineGradientTop.png') no-repeat;
+}
+
+.lineGradientBottom
+{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 13px;
+  height: 59px;
+  background: url('../../resources/images/lineGradientBottom.png') no-repeat;
+}
+
+.mainContentLeftColumn
+{
+  float: left;
+  width: 650px;  
+  min-height: 1000px;
+  height: 100%;
+  padding-right: 30px;
+}
+
+.container2
+{  
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-left: 30px;  
+}
+
+.sectionHeaderTopBar
+{
+  background-color: #ff5947;
+  height: 4px;
+  width: 100%;
+}
+
+.sectionHeaderBottomBar
+{
+  background-color: #ffa69e;
+  height: 1px;
+  width: 100%;
+}
+
+.sectionHeaderText
+{
+  color: #000000;
+  font-size: 12pt;
+  padding: 2px 0px;
+}
+
+.sectionHeaderRightColumnText
+{
+  color: #ff5947;
+  font-size: 13pt;  
+}
+
+.sectionHeaderRightColumnTopBar
+{
+  background-color: #404040;
+  height: 4px;
+  width: 100%;
+}
+
+.raceTitle
+{
+  font-size: 36pt;
+  color: #BABDC1;  
+}
+
+.raceActionBar
+{
+  display: inline-block;
+  padding: 5px 0px 15px;
+  font-size: 15px;
+}
+
+.raceActionBar a:link 
+{
+  text-decoration: none;
+  color: #0645AD;
+}
+.raceActionBar a:visited
+{
+  text-decoration: none;
+  color: #0645AD;
+}
+
+.raceActionBar a:hover
+{
+  text-decoration: none;
+  color: #ff5947;
+}
+
+.raceActionBar a:active
+{
+  text-decoration: none;
+  color: #ff5947;
+}
+
+.raceActionItem
+{
+  float: left;
+  padding-right: 20px;
+}
+
+.mainContentRightColumn
+{
+  float: left;
+  width: 280px;    
+  padding-left: 10px; 
+  padding-top: 10px;
+}
+
+.rightColumnContent
+{
+  display: inline-block;
+  padding: 5px 0px;
+  font-size: 10pt;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.dateColumn
+{
+  width: 110px;
+  float: left;
+}
+
+.eventColumn
+{
+  color: #404040;
+  width: 160px;
+  float: left;
+}
